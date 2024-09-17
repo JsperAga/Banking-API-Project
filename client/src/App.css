@@ -1,0 +1,175 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* src/footer.css */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*background-color: #f8f9fa;  Adjust the background color as needed */
+  padding: 50px;
+}
+
+.footer img {
+  margin-left: 10px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  /*color: #546d4c;  Adjust the text color as needed */
+}
+
+/* Default styles for larger screens */
+.navbar-custom {
+  background: linear-gradient(to right, #fff 15%, #546d4c 100%); /* Adjust the gradient colors as needed */
+  color: #fff; /* Set the font color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff; /* Set the color for nav links */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #ddd; /* Change color on hover */
+}
+
+.navbar-custom .navbar-brand img {
+  height: 30px; /* Ensure the logo height */
+}
+
+.navbar-custom .btn-outline-primary {
+  border-color: #fff; /* Set border color for logout button */
+  color: #fff; /* Set text color for logout button */
+}
+
+.navbar-custom .btn-outline-primary:hover {
+  background-color: #fff; /* Set background color on hover */
+  color: #546d4c; /* Set text color on hover */
+}
+
+/* Styles for smaller screens */
+@media (max-width: 1000px) {
+  .navbar-custom {
+    color: #000; /* Change font color to black for smaller screens */
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: #000; /* Change nav link color to black for smaller screens */
+  }
+
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #333; /* Change color on hover for smaller screens */
+  }
+
+  .navbar-custom .btn-outline-primary {
+    border-color: #000; /* Change border color for logout button */
+    color: #000; /* Change text color for logout button */
+  }
+
+  .navbar-custom .btn-outline-primary:hover {
+    background-color: #000; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+}
+/* Breadcrumb.css */
+
+/* Breadcrumb container */
+.breadcrumb-container {
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Breadcrumb list */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: none;
+}
+
+/* Breadcrumb item */
+.breadcrumb-item {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-item a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Separator */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 5px;
+  color: #6c757d;
+}
+
+/* Adjust font color on smaller screens */
+@media (max-width: 767.98px) {
+  .breadcrumb-item {
+    color: #000;
+  }
+
+  .breadcrumb-item a {
+    color: #000;
+  }
+
+  .breadcrumb-item a:hover {
+    color: #333;
+  }
+}
+
+/* Wrapper for breadcrumb to position it below the logo */
+.breadcrumb-wrapper {
+  margin-top: 10px; /* Adjust as needed */
+ /* margin-left: 200px;  Align it properly below the logo */
+}
