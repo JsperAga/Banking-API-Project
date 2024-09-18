@@ -69,7 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-* Installed
+
+## Installation Procedure
 * npx create-react-app . 
 * npm install react-router-dom
 * npm install date-fns
@@ -83,3 +84,4 @@ https://mui.com/material-ui/getting-started/installation/
 
 npm install react-hook-form
 https://www.react-hook-form.com/
+

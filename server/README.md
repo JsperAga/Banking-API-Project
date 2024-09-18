@@ -13,7 +13,7 @@ Create an .ENV File
 | SMTP_PASS |   |
 | SMTP_EMAIL |   |
 
-### Command used ###
+### Installation Procedure ###
 * npm init
 * npm i express --save
 * npm i -g nodemon
