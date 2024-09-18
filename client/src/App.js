@@ -1,3 +1,8 @@
+////////// WazApp Client ////////////
+// Develop: Jasper Aga Camaña      // 
+// Date Update: July 2024          //
+// Project Deployed:               //
+/////////////////////////////////////
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import withAuth from './component/withAuth';

@@ -1,3 +1,9 @@
+////////// WazApp Server ////////////
+// Develop: Jasper Aga Camaña      // 
+// Date Update: July 2024          //
+// Project Deployed:               //
+/////////////////////////////////////
+
 const express = require("express");
 
 const HttpStatusCode = require("./utils/httpStatusCode.js");
